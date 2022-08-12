@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import "./utilities/variables";
+@import "./layout/header-index";
+@import "./layout/main-index";
+@import "./layout/footer";
+
+/**Desktop-Servicios**/
+     
+    .grillaServicios{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .caja{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        padding: 20px;
+
+    }
+   
+    .title-carrito{
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+
+    }
+/**Mobile First-Productos**/
+    .grillaProductos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: space-around;
+        align-content: flex-start;
+    }
+    .Productos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    
+/**Turnos Online**/
+    .cuadro1{
+        border: gray solid 2px;
+        font-family: 'Nunito', sans-serif;
+        margin: 4%;
+        padding: 4%;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: center;
+        font-size: 25px;
+        width: 30%;
+    }
+    .border{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .cuadro2{
+        border: gray solid 2px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: 1%;
+        padding: 1%;
+        width: 20%;
+    }
+    .mapTurnos{
+        width: 100%;
+    }
+    .horarios{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2%;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
+    }
+    .secTitle{
+        font-size: 130%;
+        font-weight: bold;
+        padding: 2%;
+    }
+    .cuadro3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: flex-start;
+        align-items: stretch;
+    }
+    .listasDespegables{
+        display: flex;
+        flex-direction: column;
+        font-size: 109%;
+        font-family: 'Ibarra Real Nova', serif;
+        flex-wrap: nowrap;
+        margin-right: 19px;
+        align-content: center;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .lista1, .lista2, .lista3{
+        display: flex;
+        flex-direction: column;
+        border: gray solid 1px;
+        margin: 8px;
+        padding: 1%;
+        background-color: #fffefd;
+    }
+/***CONTATOS***/
+    .inFo{
+        padding: 2%;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .contenedorForm{
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: stretch;
+        width: 50%;
+    }
+    .form-label{
+        font-size: 100%;
+    }
+    .form-input{
+        padding: 10px;
+    }
+    .mapContact{
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+    }

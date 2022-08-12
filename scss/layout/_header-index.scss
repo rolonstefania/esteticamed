@@ -1,0 +1,20 @@
+header{
+    background-color: #e8e7e5;
+    .navHover:hover{
+        color: #fff7f7;
+        background-color: #fff7f7;
+    }
+    .buttomHover:hover{
+        color: #fff7f7;
+        background-color: $background-med;
+    }
+    
+    .colorNav{
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .fondo{
+        background-color:#e8e7e5;
+    }
+}

@@ -1,0 +1,41 @@
+main{
+    background-color: #e8e7e5;
+    width: 100%;
+}
+
+.title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title{
+    padding: 2%;
+    font-size: 230%;
+    text-align: center;
+    color: #c1a2a0;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.grillaPromos {
+    -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-ver-center {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+  }
+  @keyframes scale-up-ver-center {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+  }
+  
+.btn, .btn-dark{
+    height: 45%;
+    width: 45%;
+}
