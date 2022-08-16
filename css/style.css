@@ -92,7 +92,8 @@ footer {
   flex-direction: row;
   justify-content: space-around;
   grid-area: Title;
-  color: #e8e7e5; }
+  color: #e8e7e5;
+  padding: 15px; }
 
 .newsletter {
   padding: 20px;
