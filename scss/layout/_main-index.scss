@@ -3,25 +3,7 @@ main{
     width: 100%;
 }
 
-.title-principal{
-    padding: 2%;
-    font-size: 230%;
-    text-align: center;
-    color: #c1a2a0;
-    font-family: 'Ibarra Real Nova', serif;
-}
-.title-corporales{
-  @extend .title-principal;
-}
-.lomasDestacado{
-  @extend .title-principal;
-}
-.titleTurnos{
-  @extend .title-principal
-}
-.form-title{
-  @extend .title-principal;
-}
+
 .grillaPromos {
     -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
             animation: scale-up-ver-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;

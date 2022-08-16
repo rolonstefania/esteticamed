@@ -2,6 +2,13 @@
   margin: 0;
   padding: 0; }
 
+.title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
+  padding: 2%;
+  font-size: 230%;
+  text-align: center;
+  color: #c1a2a0;
+  font-family: 'Ibarra Real Nova', serif; }
+
 header {
   background-color: #e8e7e5; }
   header .navHover:hover {
@@ -19,13 +26,6 @@ header {
 main {
   background-color: #e8e7e5;
   width: 100%; }
-
-.title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
-  padding: 2%;
-  font-size: 230%;
-  text-align: center;
-  color: #c1a2a0;
-  font-family: 'Ibarra Real Nova', serif; }
 
 .grillaPromos {
   -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
