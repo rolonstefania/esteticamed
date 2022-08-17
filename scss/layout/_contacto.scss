@@ -1,0 +1,125 @@
+@media (max-width:480px){
+    .inFo{
+        padding: 10%;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .contenedorForm{
+        border: gray 2px solid ;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-label{
+        font-size: 100%;
+    }
+    .form-input{
+        padding: 10px;
+    }
+    .maps{
+        width: 20%;
+        padding: 100px;
+    }
+}
+@media (min-width:480px){
+    .inFo{
+        padding: 10%;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .contenedorForm{
+        border: gray 2px solid ;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-label{
+        font-size: 100%;
+    }
+    .form-input{
+        padding: 10px;
+    }
+    .mapContact{
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (min-width:768px){
+    .inFo{
+        padding: 2%;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .contenedorForm{
+        border: gray 2px solid;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-label{
+        font-size: 100%;
+    }
+    .form-input{
+        padding: 10px;
+    }
+    .mapContact{
+        display: flex;
+        width: 80%;
+        padding: 10px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+    }
+}
+@media  (min-width:1200px){
+    .inFo{
+        padding: 2%;
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+    .contenedorForm{
+        padding: 2%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: stretch;
+        width: 50%;
+    }
+    .form-label{
+        font-size: 100%;
+    }
+    .form-input{
+        padding: 10px;
+    }
+    .mapContact{
+        display: flex;
+        width: 25%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        justify-content: center;
+    }
+}

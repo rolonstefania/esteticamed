@@ -11,28 +11,7 @@
 
 /**Desktop-Servicios**/
      
-    .grillaServicios{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-    }
-
-    .caja{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: space-around;
-        align-items: center;
-        padding: 20px;
-
-    }
-   
-    .title-carrito{
-        font-family: 'Nunito', sans-serif;
-        text-align: center;
-
-    }
+    
 /**Mobile First-Productos**/
     .grillaProductos{
         display: flex;

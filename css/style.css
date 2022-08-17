@@ -9,47 +9,110 @@
   color: #c1a2a0;
   font-family: 'Ibarra Real Nova', serif; }
 
-header {
-  background-color: #e8e7e5; }
-  header .navHover:hover {
-    color: #fff7f7;
-    background-color: #fff7f7; }
-  header .buttomHover:hover {
-    color: #fff7f7;
-    background-color: #BEA393; }
-  header .colorNav {
-    padding: 10px;
-    font-size: 18px; }
-  header .fondo {
+@media (max-width: 480px) {
+  header {
+    background-color: #e8e7e5; } }
+
+@media (min-width: 480px) {
+  .fondo {
+    background-color: #e8e7e5; } }
+
+@media (min-width: 1200px) {
+  header {
     background-color: #e8e7e5; }
+    header .navHover:hover {
+      color: #fff7f7;
+      background-color: #fff7f7; }
+    header .buttomHover:hover {
+      color: #fff7f7;
+      background-color: #BEA393; }
+    header .colorNav {
+      padding: 10px;
+      font-size: 18px; }
+    header .fondo {
+      background-color: #e8e7e5; } }
 
-main {
-  background-color: #e8e7e5;
-  width: 100%; }
+@media (min-width: 768px) {
+  main {
+    background-color: #e8e7e5;
+    width: 100%; }
+  .title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
+    padding: 2%;
+    display: flex;
+    font-size: 190%;
+    text-align: center;
+    color: #c1a2a0;
+    font-family: 'Ibarra Real Nova', serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly; }
+  .btn, .btn-dark {
+    height: 45%;
+    width: 45%; } }
 
-.grillaPromos {
-  -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+@media (max-width: 480px) {
+  main {
+    background-color: #e8e7e5;
+    width: 100%; }
+  .title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
+    padding: 2%;
+    display: flex;
+    font-size: 300%;
+    text-align: center;
+    color: #c1a2a0;
+    font-family: 'Ibarra Real Nova', serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center; }
+  .btn, .btn-dark {
+    height: 45%;
+    width: 45%; } }
 
-@-webkit-keyframes scale-up-ver-center {
-  0% {
-    -webkit-transform: scaleY(0.4);
-    transform: scaleY(0.4); }
-  100% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1); } }
+@media (min-width: 768px) {
+  main {
+    background-color: #e8e7e5;
+    width: 100%; }
+  .title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
+    padding: 2%;
+    display: flex;
+    font-size: 190%;
+    text-align: center;
+    color: #c1a2a0;
+    font-family: 'Ibarra Real Nova', serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly; }
+  .btn, .btn-dark {
+    height: 45%;
+    width: 45%; } }
 
-@keyframes scale-up-ver-center {
-  0% {
-    -webkit-transform: scaleY(0.4);
-    transform: scaleY(0.4); }
-  100% {
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1); } }
-
-.btn, .btn-dark {
-  height: 45%;
-  width: 45%; }
+@media (min-width: 1200px) {
+  main {
+    background-color: #e8e7e5;
+    width: 100%; }
+  .grillaPromos {
+    -webkit-animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+    animation: scale-up-ver-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both; }
+  @-webkit-keyframes scale-up-ver-center {
+    0% {
+      -webkit-transform: scaleY(0.4);
+      transform: scaleY(0.4); }
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1); } }
+  @keyframes scale-up-ver-center {
+    0% {
+      -webkit-transform: scaleY(0.4);
+      transform: scaleY(0.4); }
+    100% {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1); } }
+  .btn, .btn-dark {
+    height: 45%;
+    width: 45%; } }
 
 /*.navFooter{
     width: 45%;
@@ -250,24 +313,6 @@ footer{
     height: 50px; } }
 
 /**Desktop-Servicios**/
-.grillaServicios {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly; }
-
-.caja {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
-  padding: 20px; }
-
-.title-carrito {
-  font-family: 'Nunito', sans-serif;
-  text-align: center; }
-
 /**Mobile First-Productos**/
 .grillaProductos {
   display: flex;

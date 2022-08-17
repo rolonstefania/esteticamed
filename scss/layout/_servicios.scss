@@ -1,0 +1,69 @@
+@media (max-width:480px){
+    .grillaServicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-carrito{
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+    }
+}
+@media (min-width:480px) {
+    .grillaServicios{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-carrito{
+        font-family: 'Nunito', sans-serif;
+        text-align: center;
+
+    }
+}
+@media (min-width:768px){
+    .grillaServicios{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+     }
+    .caja{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-between;
+        align-items: center;   
+     }
+     .title-carrito{
+         font-family: 'Nunito', sans-serif;
+         text-align: center;
+ 
+     }
+}
+@media  (min-width:1200px){
+.grillaServicios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.title-carrito{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+}

@@ -1,0 +1,50 @@
+@media (max-width:480px){
+    .grillaProductos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media (min-width:480px){
+    .grillaProductos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media (min-width:768px){
+    .grillaProductos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+@media  (min-width:1200px){
+    .grillaProductos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        justify-content: space-around;
+        align-content: flex-start;
+    }
+    .Productos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        align-items: center;
+        padding: 20px;
+        text-align: center;
+    }
+    
+}
