@@ -43,7 +43,6 @@ main{
 }
 }
 @media (min-width:768px){
-
   main{
       background-color: #e8e7e5;
       width: 100%;
@@ -64,6 +63,28 @@ main{
       height: 45%;
       width: 45%;
   }
+}
+@media (max-width:768px){
+  main{
+    background-color: #e8e7e5;
+    width: 100%;
+}
+.title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title{
+    padding: 2%;
+    display: flex;
+    font-size: 190%;
+    text-align: center;
+    color: #c1a2a0;
+    font-family: 'Ibarra Real Nova', serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+.btn, .btn-dark{
+    height: 45%;
+    width: 45%;
+}
 }
 @media  (min-width:1200px){ 
 main{

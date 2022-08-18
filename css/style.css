@@ -1,6 +1,7 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border: border-box; }
 
 .title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
   padding: 2%;
@@ -89,6 +90,25 @@
     height: 45%;
     width: 45%; } }
 
+@media (max-width: 768px) {
+  main {
+    background-color: #e8e7e5;
+    width: 100%; }
+  .title-principal, .title-corporales, .lomasDestacado, .titleTurnos, .form-title, .title-corporales, .lomasDestacado, .titleTurnos, .form-title {
+    padding: 2%;
+    display: flex;
+    font-size: 190%;
+    text-align: center;
+    color: #c1a2a0;
+    font-family: 'Ibarra Real Nova', serif;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly; }
+  .btn, .btn-dark {
+    height: 45%;
+    width: 45%; } }
+
 @media (min-width: 1200px) {
   main {
     background-color: #e8e7e5;
@@ -114,73 +134,403 @@
     height: 45%;
     width: 45%; } }
 
-/*.navFooter{
-    width: 45%;
-}
-.navSpace{
-    padding: 10px;
-    font-size: 15px;
-}
-footer{
- background-color: $background-med;   
-}
-.ulFooter{
-    text-decoration: none;
-    list-style: none;
+@media (max-width: 480px) {
+  .grillaServicios {
     display: flex;
-    flex-direction: row;
-    margin: 1%;
-    justify-content: space-evenly;
-    align-content: flex-end;
-    flex-wrap: wrap;
-}
-
-.aFooter{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-decoration: none;
-    color:#e8e7e5;
-    list-style-type: none;
-    margin: 2%;
-}
-
-.gridsFooter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: column;
+    align-items: center; }
+  .title-carrito {
+    font-family: 'Nunito', sans-serif;
+    text-align: center; } }
+
+@media (min-width: 480px) {
+  .grillaServicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .title-carrito {
+    font-family: 'Nunito', sans-serif;
+    text-align: center; } }
+
+@media (min-width: 768px) {
+  .grillaServicios {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex-wrap: nowrap;
     align-content: center;
-}
-.titleFooter{
+    justify-content: center;
+    align-items: center; }
+  .caja {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    align-items: center; }
+  .title-carrito {
+    font-family: 'Nunito', sans-serif;
+    text-align: center; } }
+
+@media (min-width: 1200px) {
+  .grillaServicios {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .caja {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    padding: 20px; }
+  .title-carrito {
+    font-family: 'Nunito', sans-serif;
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .grillaProductos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: center; } }
+
+@media (min-width: 480px) {
+  .grillaProductos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: center; } }
+
+@media (min-width: 768px) {
+  .grillaProductos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: center; } }
+
+@media (min-width: 1200px) {
+  .grillaProductos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
     justify-content: space-around;
-    grid-area: Title;
-    color: #e8e7e5;
-    padding: 15px;
-}
-.newsletter{
+    align-content: flex-start; }
+  .Productos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
     padding: 20px;
-    width: 100%;
+    text-align: center; } }
+
+@media (max-width: 480px) {
+  .border {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end; }
+  .cuadro1 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%; }
+  .cuadro2 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+  .mapTurnos {
+    width: 100%; }
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200; }
+  .secTitle {
+    font-size: 115%;
+    font-weight: bold; }
+  .lista1, .lista2, .lista3 {
+    border: gray solid 1px;
+    margin: 2%;
+    padding: 1%;
+    background-color: #fffefd; } }
+
+@media (min-width: 480px) {
+  .border {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end; }
+  .cuadro2 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    margin: 4%;
+    padding: 4%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: center;
+    font-size: 25px; }
+  .cuadro2 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    padding: 1%; }
+  .mapTurnos {
+    width: 100%; }
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200; }
+  .secTitle {
+    font-size: 115%;
+    font-weight: bold; }
+  .lista1, .lista2, .lista3 {
+    border: gray solid 1px;
+    margin: 2%;
+    padding: 1%;
+    background-color: #fffefd; } }
+
+@media (min-width: 768px) {
+  .cuadro1 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+    padding: 4%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    font-size: 25px; }
+  .cuadro2 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-.newsletterInput, .btn-submit{
-    padding: 10px;
-    grid-area: input;
-}
-.contenedorIcons{
+    text-align: center;
+    margin: 1%;
+    padding: 1%; }
+  .mapTurnos {
+    width: 100%; }
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200; }
+  .secTitle {
+    font-size: 115%;
+    font-weight: bold; }
+  .cuadro3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: stretch; }
+  .lista1, .lista2, .lista3 {
+    display: flex;
+    flex-direction: column;
+    border: gray solid 1px;
+    margin: 2%;
+    padding: 1%;
+    background-color: #fffefd; } }
+
+@media (min-width: 1200px) {
+  .cuadro1 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    margin: 4%;
+    padding: 4%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    font-size: 25px;
+    width: 30%; }
+  .border {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .cuadro2 {
+    border: gray solid 2px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 1%;
+    padding: 1%;
+    width: 20%; }
+  .mapTurnos {
+    width: 100%; }
+  .horarios {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200; }
+  .secTitle {
+    font-size: 130%;
+    font-weight: bold;
+    padding: 2%; }
+  .cuadro3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: stretch; }
+  .listasDespegables {
+    display: flex;
+    flex-direction: column;
+    font-size: 109%;
+    font-family: 'Ibarra Real Nova', serif;
+    flex-wrap: nowrap;
+    margin-right: 19px;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch; }
+  .lista1, .lista2, .lista3 {
+    display: flex;
+    flex-direction: column;
+    border: gray solid 1px;
+    margin: 8px;
+    padding: 1%;
+    background-color: #fffefd; } }
+
+@media (max-width: 480px) {
+  .inFo {
+    padding: 10%;
+    font-family: 'Nunito', sans-serif;
+    text-align: center; }
+  .contenedorForm {
+    border: gray 2px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .form {
+    display: flex;
+    flex-direction: column; }
+  .form-label {
+    font-size: 100%; }
+  .form-input {
+    padding: 10px; }
+  .maps {
     width: 20%;
-}
-.icon{
-    @include medidas;
-}*/
+    padding: 100px; } }
+
+@media (min-width: 480px) {
+  .inFo {
+    padding: 10%;
+    font-family: 'Nunito', sans-serif;
+    text-align: center; }
+  .contenedorForm {
+    border: gray 2px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .form {
+    display: flex;
+    flex-direction: column; }
+  .form-label {
+    font-size: 100%; }
+  .form-input {
+    padding: 10px; }
+  .mapContact {
+    width: 100%;
+    padding: 10px; } }
+
+@media (min-width: 768px) {
+  .inFo {
+    padding: 2%;
+    font-family: 'Nunito', sans-serif;
+    text-align: center; }
+  .contenedorForm {
+    border: gray 2px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .form {
+    display: flex;
+    flex-direction: column; }
+  .form-label {
+    font-size: 100%; }
+  .form-input {
+    padding: 10px; }
+  .mapContact {
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center; } }
+
+@media (min-width: 1200px) {
+  .inFo {
+    padding: 2%;
+    font-family: 'Nunito', sans-serif;
+    text-align: center; }
+  .contenedorForm {
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 50%; }
+  .form-label {
+    font-size: 100%; }
+  .form-input {
+    padding: 10px; }
+  .mapContact {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center; } }
+
 @media (min-width: 480px) {
   footer {
-    background-color: #BEA393; }
-  .gridsFooter {
     background-color: #BEA393; }
   .titleFooter {
     padding: 2%;
@@ -222,6 +572,17 @@ footer{
     width: 35px; } }
 
 @media (max-width: 480px) {
+  footer {
+    background-color: #BEA393; }
+  .titleFooter {
+    padding: 2%;
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    color: #fffefd; }
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; }
   .ulFooter {
     text-decoration: none;
     list-style: none;
@@ -311,130 +672,3 @@ footer{
   .icon {
     width: 50px;
     height: 50px; } }
-
-/**Desktop-Servicios**/
-/**Mobile First-Productos**/
-.grillaProductos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-items: center;
-  justify-content: space-around;
-  align-content: flex-start; }
-
-.Productos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
-  padding: 20px;
-  text-align: center; }
-
-/**Turnos Online**/
-.cuadro1 {
-  border: gray solid 2px;
-  font-family: 'Nunito', sans-serif;
-  margin: 4%;
-  padding: 4%;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: center;
-  font-size: 25px;
-  width: 30%; }
-
-.border {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start; }
-
-.cuadro2 {
-  border: gray solid 2px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  margin: 1%;
-  padding: 1%;
-  width: 20%; }
-
-.mapTurnos {
-  width: 100%; }
-
-.horarios {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin: 2%;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200; }
-
-.secTitle {
-  font-size: 130%;
-  font-weight: bold;
-  padding: 2%; }
-
-.cuadro3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-content: flex-start;
-  align-items: stretch; }
-
-.listasDespegables {
-  display: flex;
-  flex-direction: column;
-  font-size: 109%;
-  font-family: 'Ibarra Real Nova', serif;
-  flex-wrap: nowrap;
-  margin-right: 19px;
-  align-content: center;
-  justify-content: center;
-  align-items: stretch; }
-
-.lista1, .lista2, .lista3 {
-  display: flex;
-  flex-direction: column;
-  border: gray solid 1px;
-  margin: 8px;
-  padding: 1%;
-  background-color: #fffefd; }
-
-/***CONTATOS***/
-.inFo {
-  padding: 2%;
-  font-family: 'Nunito', sans-serif;
-  text-align: center; }
-
-.contenedorForm {
-  padding: 2%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
-
-.form {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  justify-content: space-around;
-  align-items: stretch;
-  width: 50%; }
-
-.form-label {
-  font-size: 100%; }
-
-.form-input {
-  padding: 10px; }
-
-.mapContact {
-  display: flex;
-  width: 25%;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: space-between;
-  justify-content: center; }
